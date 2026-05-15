@@ -1,0 +1,4 @@
+# Old URL with typo & spaces → new clean URL
+/jampa%20for%20busniess/*    /jampa-business/:splat    301
+/jampa-for-busniess/*        /jampa-business/:splat    301
+/jampa-for-business/*        /jampa-business/:splat    301

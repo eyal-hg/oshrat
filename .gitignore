@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+node_modules/
+.netlify/
+oshrat-landing-design.md
+oshrat-landing-fixes-prompt.md
