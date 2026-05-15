@@ -135,24 +135,25 @@ body {
 
 .logo {
   display: flex;
-  align-items: baseline;
-  gap: 2px;
+  align-items: center;
   text-decoration: none;
   flex-shrink: 0;
   line-height: 1;
 }
-.logo-jampa {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: -0.3px;
-  color: var(--purple);
-}
 .logo-icon {
-  height: 28px;
+  height: 56px;
   width: auto;
   display: block;
   flex-shrink: 0;
+  transition: opacity 0.2s;
+}
+.logo:hover .logo-icon {
+  opacity: 0.85;
+}
+.footer-logo {
+  height: 38px;
+  width: auto;
+  opacity: 0.65;
 }
 .logo-for {
   font-size: 13px;
