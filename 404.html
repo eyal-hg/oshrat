@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 · הדף לא נמצא · אושרת אזרזר</title>
+  <meta name="description" content="הדף שחיפשת לא נמצא — כנראה שיש פה הזדמנות לתחילת משהו אחר.">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Rubik', sans-serif;
+      direction: rtl;
+      background: #F7F8FD;
+      color: #1A1A2E;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      overflow: hidden;
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: absolute;
+      top: -200px;
+      right: -200px;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(117,87,227,0.1) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    body::after {
+      content: '';
+      position: absolute;
+      bottom: -200px;
+      left: -200px;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(117,87,227,0.07) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .wrap {
+      max-width: 560px;
+      text-align: center;
+      position: relative;
+    }
+    .num {
+      font-size: clamp(110px, 22vw, 220px);
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -8px;
+      background: linear-gradient(135deg, #7557E3 0%, #989EF5 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: clamp(24px, 4vw, 34px);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1.3;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #696971;
+      font-size: 17px;
+      line-height: 1.75;
+      margin-bottom: 36px;
+      max-width: 440px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn {
+      display: inline-block;
+      padding: 16px 36px;
+      border-radius: 40px;
+      background: #7557E3;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 20px rgba(117,87,227,0.3);
+    }
+    .btn:hover {
+      background: #9478F0;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(117,87,227,0.4);
+    }
+    .brand {
+      margin-top: 56px;
+      color: #696971;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+    .brand strong {
+      color: #1A1A2E;
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="num">404</div>
+    <h1>הדף הזה לא קיים — אבל הצעד הבא כן.</h1>
+    <p>נראה שהלכת לכתובת שלא נמצאת אצלי. אפשר לחזור הביתה ומשם להתחיל במקום הנכון.</p>
+    <a href="/" class="btn">חזרה לדף הבית →</a>
+    <div class="brand">
+      <strong>אושרת אזרזר</strong> · NLP · ליווי אישי לשינוי
+    </div>
+  </div>
+</body>
+</html>
